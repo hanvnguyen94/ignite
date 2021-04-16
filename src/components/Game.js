@@ -2,10 +2,22 @@ import React from 'react'
 // style
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
+// redux
+import { useDispatch } from 'react-redux'
+import { loadDetail } from '../actions/detailAction'
 
-const Game = ({ name, released, image }) => {
+const Game = ({ name, released, image, id }) => {
+	// load details
+	const dispatch = useDispatch()
+
+	const loadDetailHandler = () => {
+		// fire up the action from detailAction
+		// make a axios call to the api right away
+		dispatch(loadDetail(id))
+	}
+
 	return (
-		<StyledGame>
+		<StyledGame onClick={loadDetailHandler}>
 			<h3>{name}</h3>
 			<p>{released}</p>
 			<img src={image} alt={name} />
