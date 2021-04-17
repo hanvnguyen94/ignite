@@ -6,6 +6,8 @@ import { loadGames } from '../actions/gamesAction'
 import Game from '../components/Game'
 import styled from 'styled-components'
 import { motion, AnimatePresence, AnimateSharedLayout } from 'framer-motion'
+import { fadeIn } from '../animation'
+
 import { useLocation } from 'react-router-dom'
 
 const Home = () => {
@@ -26,7 +28,7 @@ const Home = () => {
 	)
 
 	return (
-		<GameList>
+		<GameList variants={fadeIn} initial='hidden' animate='show'>
 			<AnimateSharedLayout type='crossfade'>
 				{/* need a toggle to do transition, in this case pathID on & off */}
 				<AnimatePresence>
