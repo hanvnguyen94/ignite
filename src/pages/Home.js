@@ -21,7 +21,9 @@ const Home = () => {
 	}, [dispatch])
 	// get that data back from fetch games
 	// extracting properties from games state
-	const { popular, newGames, upcoming } = useSelector((state) => state.games)
+	const { popular, newGames, upcoming, searched } = useSelector(
+		(state) => state.games
+	)
 
 	return (
 		<GameList>
@@ -30,6 +32,29 @@ const Home = () => {
 				<AnimatePresence>
 					{pathId && <GameDetail pathId={pathId} />}
 				</AnimatePresence>
+
+				{/* input search box */}
+				{/* searched is an empty array => truthy value will render the searched div
+				so have to check for array length if it's === 0 (falsy) or not
+				*/}
+				{searched.length ? (
+					<div className='searched'>
+						<h2>Searched Games</h2>
+						<Games>
+							{searched.map((game) => (
+								<Game
+									name={game.name}
+									released={game.released}
+									id={game.id}
+									image={game.background_image}
+									key={game.id}
+								/>
+							))}
+						</Games>
+					</div>
+				) : (
+					''
+				)}
 
 				{/*  Upcoming */}
 				<h2>Upcoming Games</h2>
