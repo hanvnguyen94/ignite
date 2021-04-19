@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/ignite/static/js/main.73c55e4b.chunk.js",
-    "main.js.map": "/ignite/static/js/main.73c55e4b.chunk.js.map",
-    "runtime-main.js": "/ignite/static/js/runtime-main.d5b89fa6.js",
-    "runtime-main.js.map": "/ignite/static/js/runtime-main.d5b89fa6.js.map",
-    "static/js/2.58d717ac.chunk.js": "/ignite/static/js/2.58d717ac.chunk.js",
-    "static/js/2.58d717ac.chunk.js.map": "/ignite/static/js/2.58d717ac.chunk.js.map",
-    "static/js/3.62a62e25.chunk.js": "/ignite/static/js/3.62a62e25.chunk.js",
-    "static/js/3.62a62e25.chunk.js.map": "/ignite/static/js/3.62a62e25.chunk.js.map",
+    "main.js": "/ignite/static/js/main.2d59c457.chunk.js",
+    "main.js.map": "/ignite/static/js/main.2d59c457.chunk.js.map",
+    "runtime-main.js": "/ignite/static/js/runtime-main.b8bf2091.js",
+    "runtime-main.js.map": "/ignite/static/js/runtime-main.b8bf2091.js.map",
+    "static/js/2.25d268e9.chunk.js": "/ignite/static/js/2.25d268e9.chunk.js",
+    "static/js/2.25d268e9.chunk.js.map": "/ignite/static/js/2.25d268e9.chunk.js.map",
+    "static/js/3.54f42d45.chunk.js": "/ignite/static/js/3.54f42d45.chunk.js",
+    "static/js/3.54f42d45.chunk.js.map": "/ignite/static/js/3.54f42d45.chunk.js.map",
     "index.html": "/ignite/index.html",
-    "static/js/2.58d717ac.chunk.js.LICENSE.txt": "/ignite/static/js/2.58d717ac.chunk.js.LICENSE.txt",
+    "static/js/2.25d268e9.chunk.js.LICENSE.txt": "/ignite/static/js/2.25d268e9.chunk.js.LICENSE.txt",
     "static/media/apple.5757c37e.svg": "/ignite/static/media/apple.5757c37e.svg",
     "static/media/gamepad.c9269ef5.svg": "/ignite/static/media/gamepad.c9269ef5.svg",
     "static/media/logo.9b6b8655.svg": "/ignite/static/media/logo.9b6b8655.svg",
@@ -19,8 +19,8 @@
     "static/media/xbox.3e7db735.svg": "/ignite/static/media/xbox.3e7db735.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5b89fa6.js",
-    "static/js/2.58d717ac.chunk.js",
-    "static/js/main.73c55e4b.chunk.js"
+    "static/js/runtime-main.b8bf2091.js",
+    "static/js/2.25d268e9.chunk.js",
+    "static/js/main.2d59c457.chunk.js"
   ]
 }
